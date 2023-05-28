@@ -1,0 +1,60 @@
+.todosTitle{
+    width: 286px;
+    height: 50px;
+    padding: 15px;
+    font-size: 16px;
+    background-color: #242731;
+    border-radius: 12px;
+    display: flex; 
+    justify-content: space-between;
+    align-items: center;
+
+}
+.todosContainer{
+    display: flex;
+    flex-direction: column;
+}
+
+.todoInput{
+    background-color: transparent;
+    font-size: 18px;
+    font-weight: 700;
+    border: none;
+    width: 75%;
+    margin-left: 5px;
+    color: #6E6E6E;
+}
+.todoInput:is(:focus,:active), .todoTextArea:is(:focus,:active){
+    border: none;
+    outline: none;
+}
+.todoTextArea{
+    background-color: transparent;
+    border: none;
+    resize: none;
+    color: #808191;
+    font-size: 16px;
+    font-family: 'poppins';
+}
+
+
+.todoTextArea::-webkit-scrollbar {
+    width: 5px;
+  }
+  
+  .todoTextArea::-webkit-scrollbar-track {
+    background: transparent;
+  }
+  
+  .todoTextArea::-webkit-scrollbar-thumb {
+    background: transparent;
+    border-radius: 100px;
+    
+
+  }
+  
+ 
+  .todoTextArea:hover.todoTextArea::-webkit-scrollbar-thumb {
+    background: #888;
+    border-radius: 100px;
+  }

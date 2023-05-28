@@ -1,0 +1,120 @@
+.sideBarContainer{
+    height: 100vh;
+    width: 251px;
+    border-right: 2px solid #242731;
+    padding-top:34px ;
+    position: relative;
+}
+.profileSection{
+    display: flex;
+    align-items: center;
+    margin-left: 26px;
+}
+.profilePic{
+    font-weight: 600;
+    font-size: 15px;
+    width: 29.82px;
+    height: 28.24px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    background-color: #3772FF;
+    color: #FEFEFE;
+}
+.profileName{
+    font-style: normal;
+    font-weight: 600;
+    font-size: 23.5618px;
+    letter-spacing: -0.02em;
+    color: #FEFEFE;
+    margin-left: 8px;
+    
+}
+.backIcon{
+    margin-left: 52px;
+}
+.navigators{
+    margin-top: 16px;
+    display: flex;
+    flex-direction: column;
+    gap: 3px;
+    margin-left: 9px;
+}
+.navigator{
+    width: 216px;
+    height: 42px;
+    padding: 13px 20px;
+    color: #808191;
+    display: flex;
+    align-items: center;
+    border-radius: 12px;
+    transition: .3s;
+    cursor: pointer;
+}
+.navigator-name{
+    font-size: 14px;
+    margin-left: 23px;
+   
+}
+.navigator:hover{
+    background-color: #353945;
+}
+.sbbAmount, .sbbBuy{
+    height: 34px;
+    width: 95px;
+    background-color: #353945;
+    border-radius: 10px;
+    padding: 7.5px 15.5px;
+    display: flex;
+    align-items: center;
+    font-size: 14px;
+    gap: 7px;
+}
+.sbbProfilePic{
+    width: 17px;
+    height: 17px;
+    border-radius: 50%;
+    font-size: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #3772FF;
+}
+.sbbBuy{
+    background-color: #A3E3FF;
+}
+.sbbTop{
+    display:flex;
+     gap:7px;
+}
+
+.sbbBottom{
+    margin-top: 20px;
+    display: flex;
+    align-items: center;
+    gap: 12px;
+}
+.sbbToggler{
+    width: 58px;
+    height: 25px;
+    background: #353945;
+    mix-blend-mode: normal;
+    border-radius: 12px;
+    padding: 6px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.toggle{
+    width: 18.23px;
+    height: 18.23px;
+    border-radius: 50%;
+    background: #3772FF;
+}
+
+.sideBarBottom{
+    position: absolute;
+    bottom: 27px;
+    left: 21px;
+}

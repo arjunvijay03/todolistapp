@@ -1,0 +1,58 @@
+.editTodoContainer{
+    width: 350px;
+    height: calc(100vh - 62px);
+    padding: 24px;
+    border-left: 2px solid #242731;
+}
+
+.etcHeader{
+    display: flex;
+    align-items: center;
+}
+.etcTitle{
+    font-size: 18px;
+    font-family: 'Inter';
+    margin-left: 18px;
+}
+
+.etcInput{
+    
+    height: 51px;
+    font-size: 20px;
+    
+    
+}
+
+.etcTextArea{
+    font-size: 14px;
+    padding: 10px;
+}
+
+.etcInput,.etcTextArea{
+    width: 265px;
+    background-color: #242731;
+    border-radius: 12px;
+    border: none;
+    resize: none;
+    margin-top: 10px;
+    color: #A6A6A6;
+    padding-left: 10px;
+
+}
+
+.etcInput:is(:active, :focus),.etcTextArea:is(:active, :focus){
+    outline: none;
+    border: none;
+    
+}
+.etcSaveBtn{
+    width: 267px;
+    height: 34px;
+    border-radius: 10px;
+    background-color: #3772FF;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+    font-size: 16px;
+    margin-top: 10px;
+}

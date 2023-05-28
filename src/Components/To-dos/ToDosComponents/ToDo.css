@@ -1,0 +1,51 @@
+.todoContainer{
+    width: 286px;
+    min-height: 116px;
+    background-color: #191B20;
+    border-radius: 16px;
+    margin-top: 5px;
+    padding: 19px 14px;
+    
+
+}
+
+.todoTitleContainer{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.tdtIcon{
+    width: 24px;
+    height: 24px;
+    border-radius: 50%;
+    background: linear-gradient(135deg, #BBB5E2 0%, #9C92DF 100%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 10px;
+}
+
+.tdTitle{
+    font-size: 18px;
+    color: #ffff;
+    margin-left: 4px;
+}
+
+.tdEditBtn{
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    background-color: #353945;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+}
+
+.toDoContent{
+    margin-top: 13px;
+    color: #808191;
+    font-size: 16px;
+
+}

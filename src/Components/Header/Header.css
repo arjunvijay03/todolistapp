@@ -1,0 +1,35 @@
+.headerContainer{
+    width: 100%;
+    border-bottom: 2px solid #242731;
+    height: 62px;
+    padding: 8px 16px;
+    display: flex;
+    justify-content: space-between;
+    
+}
+.headerTitle{
+    font-size: 18px;
+    padding-bottom: 0px;
+    border-bottom: 2px solid #3772FF;
+    width: min-content;
+    height: min-content;
+    margin-top: 15px;
+    margin-left: 34px;
+}
+.headerRightSection{
+    height: 100%;
+    display: flex;
+    align-items: center;
+    padding: 9px;
+    background-color: #191B20;
+    border-radius: 12px;
+    font-size: 15px;
+    gap: 16px;
+}
+.tier{
+    font-size: 12px;
+    padding: 4px 6px;
+    color: #3772FF;
+    background-color: #A3E3FF;
+    border-radius: 5px;
+}
