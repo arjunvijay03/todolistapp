@@ -11,7 +11,7 @@
  * Clone the repository:
     git clone https://github.com/arjunvijay03/todolistapp.git
   
-  * cd <repo name>
+  * cd repository_name
   * npm i 
   * npm run dev
   
