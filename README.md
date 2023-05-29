@@ -9,7 +9,7 @@
 ## Getting Started
 
  * Clone the repository:
-    git clone https://github.com/your-username/your-app.git
+    git clone https://github.com/arjunvijay03/todolistapp.git
   
   * cd <repo name>
   * npm i 
